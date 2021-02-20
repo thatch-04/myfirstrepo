@@ -40,3 +40,23 @@ git commit -m "some random text, something descriptive"
 ```
 
 **If you forget the -m you'll end up in vim, to exit type ":wq"**
+
+## Looking at our commit history
+
+```
+git log
+```
+
+```
+git log -- oneline
+```
+
+## Working with Remotes (Github, enterprise, gitlab, bitbucket)
+
+- to add a remote `git remote add <name> <url>`
+
+- to see list of remotes `git remote -v`
+
+- to see the push code `git push <remoteName> <branchName>`
+
+- to see your current branch `git branch`
